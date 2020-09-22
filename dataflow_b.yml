@@ -2,5 +2,5 @@ dataflow_b:
     type: auto_healing
     instance_type: t3.large
     username: client
-    password: 23#bdon&8b
+    password: Credstash lookup! {{ lookup('credstash', 'dataflow_b_pw') }}
     count: 1
